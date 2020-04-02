@@ -52,7 +52,7 @@ margin:0;
 }
 
 #here{
-font-size:45px;
+font-size:35px;
 position:absolute;
 bottom:40%;}
 
@@ -73,17 +73,9 @@ overflow:hidden;
 position:fixed;
 z-index:3;
 width:100%;
-//animation: pulse 5s infinite;
+
 display:block;}
 
-@keyframes pulse {
-  0% {
-    background-color: #001F3F;
-  }
-  100% {
-    background-color: #FF4136;
-  }
-}
 
 
 .top a{
@@ -101,7 +93,7 @@ height:100px;
 width:300px;
 }
 .top #one{
-font-size:20px;
+font-size:14px;
 display:inline;
 position:absolute;
 bottom:44%;
@@ -111,7 +103,7 @@ left:400px;
 display:inline;}
 
 
-//.pics{display:block;}
+.pics{width:100%;}
 .pics img{
 margin-top:130px;
 width:100%;
@@ -135,7 +127,7 @@ display:inline-block;}
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -187,12 +179,12 @@ padding-right:150px;}
 
 .oonn{
 color:#ff6666;
-font-size:50px;}
+font-size:40px;}
 
-.ble{font-size:20px;}
+
 .write p{margin-bottom:25px;}
 .ttww{
-font-size:35px;}
+font-size:25px;}
 
 .write #ofirst {//display:inline-block;
 width:50%;
@@ -254,7 +246,7 @@ display:inline-block;
 }
 
 .samp .head{
-font-size:40px;
+font-size:30px;
 }
 
 .samp p{padding:10px;}
@@ -352,7 +344,7 @@ padding-bottom:50px;}
 .footer .onimg{display:inline-block;
 text-align:center;
 color:white;
-font-size:20px;
+font-size:14px;
 width:50%;}
 
 
@@ -375,7 +367,7 @@ display:none;
 top:0;
 position:fixed;
 width:25%;
-font-size:30px;
+font-size:20px;
 z-index:10;
 left:0;
 height:100%;
@@ -395,7 +387,7 @@ cursor:pointer;}
 
 
 .header{
-font-size:20px;
+font-size:14px;
  overflow: hidden;
 background-color:#ddd;
 
@@ -440,5 +432,22 @@ float:none;}
 	.top #one{display:none;}
 
 #here{font-size:50px;}
+
+.write{
+overflow:hidden;
+//background-color:black;
+padding-top:0px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+}
+.write #ofirst {//display:inline-block;
+width:100%;
+
+float:none;}
+
+.write #osec {display:block;
+width:100%;
+float:left;}
 }
 
