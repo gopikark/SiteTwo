@@ -427,18 +427,18 @@ margin-left:17px;
 height:24px;}
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width: 1450px){
 	.right{
 float:none;}
 
 	.header p{
 float:none;}
 
-
+//.top img{float:right;}
 	.claa {display:block;}
 
 	.top #one{display:none;}
 
-
+#here{font-size:50px;}
 }
 
