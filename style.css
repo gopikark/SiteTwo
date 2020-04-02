@@ -515,7 +515,14 @@ top:20px;
 }
 #th img{height:300px;}
 
-.footer{width:100%;}
+
+
+.footer{background-image:url(image/footer.jpg);
+background-repeat: no-repeat;
+ background-size: cover;
+padding-left:0px;
+padding-top:50px;
+padding-bottom:50px;}
 .footer .onimg{display:inline-block;
 text-align:center;
 color:white;
